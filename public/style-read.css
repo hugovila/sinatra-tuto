@@ -1,5 +1,6 @@
  html { 
-  background: url('http://bit.ly/flickr-img') no-repeat center fixed;
+  /* background: url('http://bit.ly/flickr-img') no-repeat center fixed; */
+  background: url('flickr-img-gimp.jpg') no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
