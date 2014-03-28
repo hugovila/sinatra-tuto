@@ -15,19 +15,19 @@ end
 #  erb:read_more
 # end
 
-get '/italian' do
+get '/italian/?' do
   "Ciao!"
 end
 
-get '/spanish' do
+get '/spanish/?' do
   "Adios!"
 end
 
-get '/bonjour/:nom' do |n|
+get '/bonjour/:nom/?' do |n|
   "Bonjour #{n} !"
 end
 
-get '/read_more' do
+get '/read_more/?' do
   erb:read_more, :layout => :read
 end
 
